@@ -12,11 +12,4 @@ catch(err)
     alert('good')
 }
 }
-function clear() {
-    holder.value = "";
-    
-}
 
-function del() {
-    holder.value = holder.values.splice(0,-2);
-}
