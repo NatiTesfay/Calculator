@@ -9,7 +9,7 @@ function calculate() {
  }
 catch(err)
 {
-    alert('good')
+    alert('BAD')
 }
 }
 
