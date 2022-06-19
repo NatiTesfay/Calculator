@@ -4,12 +4,15 @@ function display(num){
 }
 
 function calculate() {
- if(holder.value =eval (holder.value)){
-    alert('yes');
- }
+ try{
+    holder.value =eval (holder.value)
 }
+catch {
+holder.value = 'error';
 
-function clear() {
+}}
+
+del.onclick() = function clear() {
     holder.value = '';
 }
 
