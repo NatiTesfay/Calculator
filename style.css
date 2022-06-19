@@ -19,6 +19,7 @@
 
 .calculator{
     background-color: bisque;
+    border: 2px solid;
     padding: 15px;
     border-radius: 30px;
     display: grid;
